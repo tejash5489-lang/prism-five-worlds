@@ -1,5 +1,7 @@
 # PRISM — five worlds, one light
 
+**Live:** [tejash5489-lang.github.io/prism-five-worlds](https://tejash5489-lang.github.io/prism-five-worlds/)
+
 A single-page hub that opens into five small, fully interactive worlds — a scroll-driven
 cosmic film, a top-down bike game, a living ecosystem sim, an explorable constellation,
 and a tense scan-the-grid heist. No backend, no build step, no framework: plain HTML,
