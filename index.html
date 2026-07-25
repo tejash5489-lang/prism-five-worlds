@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>PRISM — Five Worlds</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💠</text></svg>">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <div id="app">
+
+    <!-- ============ HUB ============ -->
+    <section id="hub" class="screen" aria-label="Hub">
+      <div class="hub-bg"><canvas id="hub-canvas"></canvas></div>
+
+      <header class="hub-header">
+        <div class="brand">
+          <span class="brand-mark">◈</span>
+          <span class="brand-name">PRISM</span>
+          <span class="brand-sub">five worlds, one light</span>
+        </div>
+        <button id="mute-toggle" class="sound-btn" aria-pressed="false" title="Toggle sound">
+          <span class="dot"></span>
+          <span class="txt">Sound off</span>
+        </button>
+      </header>
+
+      <div class="hub-body">
+        <p class="hub-lede">Five small worlds. Scroll one, ride one, grow one, explore one, crack one. Pick a facet.</p>
+
+        <div class="card-grid" id="card-grid">
+          <!-- cards injected by main.js -->
+        </div>
+      </div>
+
+      <footer class="hub-footer">
+        <span>Move with intent — each world remembers your progress this session.</span>
+      </footer>
+    </section>
+
+    <!-- ============ WORLD STAGE ============ -->
+    <section id="world-stage" class="screen" aria-label="World">
+      <button id="back-to-hub" class="back-btn" title="Back to hub (Esc)">
+        <span>←</span> Hub
+      </button>
+      <div id="world-mount"></div>
+    </section>
+
+    <div id="transition-veil"></div>
+  </div>
+
+<script src="js/utils.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/worlds/origin-scroll.js"></script>
+<script src="js/worlds/bike-city.js"></script>
+<script src="js/worlds/tide-pool.js"></script>
+<script src="js/worlds/atlas-echoes.js"></script>
+<script src="js/worlds/glyph-heist.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

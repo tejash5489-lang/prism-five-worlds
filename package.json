@@ -1,0 +1,9 @@
+{
+  "name": "prism-five-worlds",
+  "version": "1.0.0",
+  "description": "PRISM — a hub of five interactive mini-worlds (scroll, ride, grow, explore, crack)",
+  "private": true,
+  "scripts": {
+    "start": "npx --yes serve -l 5600 ."
+  }
+}
